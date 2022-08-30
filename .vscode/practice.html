@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <style>
+        body {
+            width: auto;
+            background-image: image();
+            background-color: black;
+            height: 100%;
+        }
+
+        #first {
+
+           
+
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 1px;
+        }
+
+
+        #input {
+
+            margin-top: 3px;
+
+        }
+
+        #but {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .head {
+
+            
+            text-shadow: turquoise;
+            font-size: 30px;
+            color: white;
+
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+
+        #p {
+            font-size: 12px;
+        }
+
+        #show {
+            margin-top: 12px;
+        }
+        #colo,a{
+            color: white;
+            text-decoration: white;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-image: url('income.jpg');"></div>
+
+    <form method="POST">
+        {% csrf_token %}
+        <div class="head"> login your Account</div>
+        <div id="first" class="form-row">
+
+
+
+            <div class="form-group col-md-6">
+                <label id="colo" for="user-name"><b>Username</b></label>
+
+                <input id="input" type="text" class="form-control" name="user-name" placeholder="Enter Username"
+                    value="{{name}}">
+
+                <label  id ="colo" for="password"><b>Password</b></label>
+
+
+
+
+                <input id="input" type="password" class="form-control" name="password" placeholder="Password"
+                    value="{{password}}">
+
+
+
+
+
+
+
+
+
+                <div class="from-groupcol-md-6">
+                    <button id="but" type="submit" class="btn btn-primary">login</button>
+                </div>
+
+
+                <div>
+                    <span id="colo">Forgot <a id="a" href="#">password?</a></span>
+                    <a id="a" href="/user/signup"> Create Account??</a>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+<script>
+    var g = "{{ error|safe }}";
+
+
+    if (g) {
+        alert(g);
+    }
+
+
+</script>
+
+</html>

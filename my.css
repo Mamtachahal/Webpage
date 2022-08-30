@@ -1,0 +1,130 @@
+
+body {
+    background-color: lightblue;
+  }
+  .back{
+    background-color: rgb(188, 188, 228);
+}
+  
+  h1{
+      font-size: 27px;
+      color: rgb(15, 15, 15);
+      
+      text-align: center;
+
+      margin-top: 20px;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      margin-top: 10px;
+      padding-top: 20px;
+  }
+  
+  pre{
+      font-size: 18px;
+      padding-left: 10px;
+      padding-right:10px ;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-top: 10px;
+  }
+  .cent{
+    background-color: rgb(77, 77, 124);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top :10px;
+
+  }
+  
+.siz{
+    font-size: 18px; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+}
+.gap{
+    margin-right: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.siz1{
+    font-size: 18px; 
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.siz2{
+    font-size: 18px; 
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top:50px;
+    margin-top:60px;
+}
+.last{
+   margin-bottom:10px ;
+   margin-top: 20px;
+   margin-left:  10px;
+   padding-right:10px ;
+   padding-top: 10px;
+}
+.but{
+    background-color: white;
+    color:  black;
+}
+.gap2{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+     padding-top: 30px;
+     padding-bottom: 10px;
+
+}
+.cent{
+
+    text-align: center;
+    margin-bottom:40px ;
+    margin-top:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+.c1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(77, 77, 124);
+    padding-top:10px;
+}
+.tab{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    
+    
+    background-attachment: fixed;
+}
+.lin{
+    background-color: rgb(188, 188, 228);
+    width: 100%;
+    width: auto;
+    padding-bottom: 10px;
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+h3{
+    background-color: rgb(188, 188, 228);
+    margin-left:  10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    
+}
+.fi{
+    background-attachment: fixed;
+    
+}
